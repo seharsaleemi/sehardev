@@ -1,0 +1,171 @@
+/* Main shell and font used */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans SC', sans-serif; 
+}
+a { color:#4285F4 } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none;  }
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none;  }
+
+/* Buttons on side */
+
+ul
+{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    z-index:1;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    background:#fff; 
+    width: 110px;
+    margin: 25px 0;
+    padding-left: 15px;
+    text-transform: uppercase; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    box-shadow: 10px 10px 20px 1px #888888;
+
+
+}
+
+/* Colour change when hovering over buttons */
+
+ul li a:hover
+{
+    background: #c6dbfd;
+    color: #fff; 
+}
+
+/* Enabling smooth scroll magic (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ */
+
+#container
+{width:100%;
+height: 100vh;
+scroll-behavior: smooth;
+overflow-y: scroll;
+
+}
+
+/* Basically making sure it stays in slide format */
+#container div{
+    position:relative;
+    width: 100%;
+    height:100%;
+}
+
+/* Main header titles for each page */
+#container div h1
+{
+    position:absolute;
+    top:50%; 
+    width: 100%;
+    text-align: left;
+    margin: 25px;
+    padding: 0;
+    font-size: 6em; 
+    padding-left:3px;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Noto Sans SC', sans-serif;
+
+}
+
+/* Text that shows after hover */
+
+ #sehar1:hover #sehar2:after {
+    content: "Sehar Saleemi.";
+    color: #4285F4;
+    font-weight: 900;
+    
+  }
+  #sehar1:hover #sehar2:before {
+    content: "";
+    font-weight: 900;
+  }
+  #sehar2:before {
+    content: "Sehar.";
+    color: #4285F4;
+    font-weight: 900;
+    
+  } 
+
+
+/* hover in same line*/
+.twentytwenty:hover:after {
+    content:' (2020)';
+    font-weight:700;
+}
+
+.twentynineteentwenty:hover:after {
+    content:' (2019 - 2020)';
+    font-weight:700;
+}
+
+.project:hover:after {
+    color: #c0c0c0;
+    content:' (with Python and Raspberry Pi. Front-end: HTML, CSS, ReactJS. Back-end: Django and SQL database)';
+}
+
+#skills1:hover #skills2:after {
+    content: "Graphic design, game developing, and video editing.";
+    color: #000000;
+    
+  }
+  #skills1:hover #skills2:before {
+    content: "";
+  }
+  #skills2:before {
+    content: "Hover here for non-programming skills";
+    color: #4285F4;
+  } 
+ 
+ 
+/* Background colours for the different pages*/
+/* #container div#about
+{
+    background: #fff;
+}
+#container div#experience
+{
+    background: #fff;
+}
+#container div#skills
+{
+    background: #fff;
+}
+#container div#projects
+{
+    background: #fff;
+}
+#container div#contact
+{
+    background: #fff;
+} */
+
+.smallertext{
+    font-size: 2.25vw;
+    LINE-HEIGHT: 3.25vw;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+

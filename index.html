@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <!-- Hello this is Sehar, you have found the secret easter egg cat! 
+      
+           |`-.._____..-'|
+           :  > .  ,  <  :
+           `./ __`' __ \,'
+            | (|_) (|_) |
+            ; _  .  __  :
+            `.,' - `-. ,'
+              `, `_  .'
+              /       \
+             /         :
+            :          |_
+           ,|  .    .  | \
+          : :   \   |  |  :
+          |  \   :`-;  ;  |
+          :   :  | /  /   ;
+           :-.'  ;'  / _,'`------.
+           `'`''-`'''-'-''--.---  )
+                           `----'-->
+
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>Hi! I'm Sehar.</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<!-- Fonts -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        
+<!-- Main text on site -->
+
+    <style>
+      A {text-decoration: none;}
+		    	html {
+		  scroll-behavior: smooth;
+		}
+        p {
+         font-size: 4em; 
+          font-family: 'Varela Round', sans-serif;
+      }
+
+      .align-div-content{
+        height: 100vh !important;
+        display: flex;
+    	align-items: center;
+      }
+    </style>
+    </head>
+<body>
+  <div style="width: 100%; margin: auto;">
+    <div style="width: 10%; float: left;">
+      <ul>
+      
+<!-- Text inside side buttons -->
+
+        <li><a href="#about" >About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+    <div style="width: 89%; float: right;">
+
+<!-- About -->
+
+         <div id="about" class="align-div-content">  
+            <p class="bigtext sehar">
+              Hello, I'm
+              <span id="sehar1" >
+              <span id="sehar2"> 
+              </span>
+              </span>
+              <br><br><small>Check my <a target="_blank" class="link" href="https://www.linkedin.com/in/seharsaleemi/">LinkedIn</a>, or download my CV <a target="_blank" class="link" href="https://drive.google.com/file/d/1SE4SDFKTjD7P-IgK65GjRG50I8FYtpGE/view">here</a>.</small>
+            </p>
+          </div>
+
+<!-- Experience -->
+
+        <div id="experience" class="align-div-content">  
+            <p class="bigtext sehar", style="text-align:left; margin-top: -30px;">
+              Currently, I'm a final year BSc Computer Science Student. In terms of experience, I've worked a year in <span class="twentynineteentwenty"><b>SONY</b></span> as a Software Engineer Intern. I was also selected as a <span class="twentytwenty"><span style="color:#4285F4; font-weight:500;">G</span><span style="color:#DB4437; font-weight:500;">o</span><span style="color:#F4B400; font-weight:500;">o</span><span style="color:#4285F4; font-weight:500;">g</span><span style="color:#0F9D58; font-weight:500;">l</span><span style="color:#DB4437; font-weight:500;">e</span>
+            </span> Get Ahead Scholar. <br> 
+            </p>
+          </div>
+          
+<!-- Skills -->    
+
+<div id="skills" class="align-div-content"><p style="text-align:left;">I'm skilled in: <br>Python, Java, Django, ReactJS, HTML, CSS, JavaScript, SQL, and Git.
+
+  <br><br><small></small><span id="skills1" ><span id="skills2"></span></span></small></p> 
+
+</div>    
+
+<!-- Projects -->
+
+        <div id="projects" class="align-div-content"><p>I've worked on several projects, such as an <span class="project"><span style="color:#4285F4;">AI system to detect visual TV errors using a neural network</span></span></span>, a system which displays <a target="_blank" class="link" href="https://devpost.com/software/rebearth-ba09mi">localized news using a news API</a> when the country's name is entered, and an <a target="_blank" class="link" href="https://devpost.com/software/be-betta-ogukth">award-winning offline browser game</a> aimed to raise awareness of environmental issues <b>(HackCambridge University 2020.)</b>
+          <br><br><small>Check out more projects on <a target="_blank" class="link" href="https://devpost.com/seharsaleemi">DevPost</a>, or my  <a target="_blank" class="link" href="https://github.com/seharsaleemi">GitHub</a>.</small>
+        
+        </p>
+        </div>
+
+<!-- Contact -->
+
+<div class="main align-div-content" id="contact">
+    <p style="text-align:left;">Have any questions?<a target="_blank" class="link" href="mailto:seharsaleemi@outlook.com"> E-mail me.</a><small><br> I'd love to work together on something great!  <br> <br>- Sehar</small></p>
+</div>
+    </div>
+  </div>
+</body>
+
+<!-- JavaScript -->
+
+<script type="text/javascript">
+  function updateDiv(menu){
+    if(menu =='about'){
+      console.log('inside about');
+      document.getElementById("about").style.display = "block";
+      document.getElementById("experience").style.display = "none";
+      document.getElementById("skills").style.display = "none";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "none";
+    }
+
+    if(menu =='experience'){
+      console.log('inside experience');
+      document.getElementById("about").style.display = "none";
+      document.getElementById("experience").style.display = "block";
+      document.getElementById("skills").style.display = "none";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "none";
+    }
+    if(menu =='skills'){
+      console.log('inside skills');
+      document.getElementById("about").style.display = "none";
+      document.getElementById("experience").style.display = "none";
+      document.getElementById("skills").style.display = "block";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "none";
+    }
+
+    if(menu =='projects'){
+      console.log('inside projects');
+      document.getElementById("about").style.display = "none";
+      document.getElementById("experience").style.display = "none";
+      document.getElementById("skills").style.display = "none";
+      document.getElementById("projects").style.display = "block";
+      document.getElementById("contact").style.display = "none";
+    }
+    if(menu =='contact'){
+      console.log('inside contact');
+      document.getElementById("about").style.display = "none";
+      document.getElementById("experience").style.display = "none";
+      document.getElementById("skills").style.display = "none";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "block";
+    }
+  }
+</script>
+</html>
+
