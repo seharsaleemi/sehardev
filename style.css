@@ -122,11 +122,16 @@ overflow-y: scroll;
     font-weight:700;
 }
 
-
 .twentytwentyone:hover:after {
     content:' (July 2021)';
     font-weight:700;
 }
+
+.redhat:hover:after {
+    content:' (Sept 2021)';
+    font-weight:700;
+}
+
 .project:hover:after {
     color: #c0c0c0;
     content:' (with Python and Raspberry Pi. Front-end: HTML, CSS, ReactJS. Back-end: Django and SQL database)';
